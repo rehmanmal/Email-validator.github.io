@@ -1,0 +1,48 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 0 13px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: rgb(192, 189, 205);
+}
+
+.logo img{
+    width: 15px;
+    filter: invert(1);
+}
+
+.container{
+    max-width: 80vw;
+    margin: auto;
+    padding: 9px 15px;
+}
+
+.container h1{
+    padding: 12px 0;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 9px 12px;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+}

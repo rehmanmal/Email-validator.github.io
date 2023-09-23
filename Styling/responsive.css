@@ -1,0 +1,40 @@
+/* Responsive styles */
+@media (max-width: 1000px) and (min-width: 350px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px;
+        width: 45vh;
+    }
+
+    main{
+        height: 120vh;
+    }
+
+    input[type='text']{
+        width: 80vw
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ul li {
+        list-style-type: none;
+        padding: 0 15px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer{
+        display:flex;
+        justify-content:center;
+        width: 46vh;
+    }
+}
